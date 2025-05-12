@@ -8,20 +8,24 @@
     "skipLibCheck": true,
 
     /* Bundler mode */
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
+    "moduleResolution": "node",
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
     "noEmit": true,
-    "jsx": "react-jsx",
+    "jsx": "react-jsx",  // Keep this for React 17+
+    "types": ["react", "react-dom"],
 
     /* Linting */
+    "incremental": true,  // Enable incremental builds
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    /* Compatibility */
+    "esModuleInterop": true
   },
   "include": ["src"]
 }
