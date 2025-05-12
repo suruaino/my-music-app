@@ -1,0 +1,10 @@
+
+.searchBarA {
+    background-color: var(--foreground);
+
+}
+.searchBarA > div input{
+    border: 1px solid var(--foreground);
+    border-radius: 20px;
+    font-size: 14px;
+}

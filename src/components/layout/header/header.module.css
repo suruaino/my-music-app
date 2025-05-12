@@ -1,0 +1,17 @@
+.header {
+    background-color: var(--foreground);
+}
+.header > div code{
+    position: relative;
+}
+.header > div code::before{
+    content: "";
+    display: block;
+    background-color: var(--important);
+    height: 3px;
+    width: 2.3rem;
+    left: 1rem;
+    
+    position: absolute;
+    z-index: 100;
+}

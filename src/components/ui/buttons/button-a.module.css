@@ -1,0 +1,7 @@
+.buttonA {
+    border-radius: var(--rounded);
+    transition: .2s;
+}
+.buttonA:hover{
+    scale: .98;
+}
